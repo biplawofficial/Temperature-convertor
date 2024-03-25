@@ -20,9 +20,9 @@ function convert()
         temp=((temp*9/5)+32).toFixed(1);
         output.textContent=`${temp} °F`;
     }
-    else
+    else if((!celtofah.checked)&&(!fahtocel.checked)&&value.value==NULL)
     {
-        output.textContent="Enter any value";
+        output.textContent="Select any option and enter any value";
     }
     form.translate(20);
     
