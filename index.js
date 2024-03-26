@@ -22,8 +22,6 @@ function convert()
     }
     else
     {
-        output.textContent="Select any option and enter any value";
+        output.textContent="Select any option";
     }
-    form.translate(20);
-    
 }
